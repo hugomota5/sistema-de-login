@@ -1,0 +1,68 @@
+<!-- Página Inicial -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sistema de Login</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/lib/bootstrap-5.3.3-dist/css/bootstrap.min.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+</head>
+
+<body class="pt-5">
+    <main id="login">
+        <div class="container">
+            <div class="logo-form d-flex justify-content-center py-sm-5">
+                <h1>Login</h1>
+            </div>
+            <div id="login-row">
+                <div id="login-column">
+                    <div id="login-box">
+                        <form id="login-form" class="form">
+                            <!-- DIV INPUT USUÁRIO -->
+                            <div class="mb-3 input-group flex-nowrap">
+                                <span class="p-2"><i class="fa-solid fa-user"></i></span>
+                                <input type="email" class="form-control border border-0 border-bottom"
+                                    id="floatingInput" placeholder="Usuário*" />
+                                <label for="floatingInput"></label>
+                            </div>
+                            <!-- DIV INPUT SENHA -->
+                            <div class="mb-3 input-group">
+                                <span class="p-2"><i class="fa-solid fa-lock"></i></span>
+                                <input type="password" class="form-control border border-0 border-bottom"
+                                    id="floatingPassword" placeholder="Senha*" />
+                                <label for="floatingPassword"></label>
+                            </div>
+                            <div class="mb-3 form-check d-flex justify-content-between">
+                                <div>
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+                                    <label class="form-check-label" for="exampleCheck1">Lembrar-me</label>
+                                </div>
+                                <div>
+                                    <a href="">Esqueceu sua senha?</a>
+                                </div>
+                            </div>
+                            <div class="vstack gap-2 col-md-5 mx-auto">
+                                <button type="submit" class="btn btn-primary">Acessar</button>
+                                <button type="submit" class="btn btn-outline-secondary">Criar minha conta</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Font Awesome Kit -->
+    <script src="https://kit.fontawesome.com/e453c78bbc.js" crossorigin="anonymous"></script>
+    <!-- jQuery (opcional, se necessário para plugins) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap JS Bundle (com Popper incluído) -->
+    <script src="/lib/bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <script src="/assets/js/scripts.js"></script>
+</body>
+
+</html>
